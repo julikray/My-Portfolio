@@ -1,0 +1,147 @@
+.bigbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px ;
+   
+}
+h1{
+    text-align: center;
+}
+.bigbox h2{
+    font-weight: 500;
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+.bigbox p{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+a img{
+    height: auto;
+    width:5vw;
+
+}
+
+form{
+    background-color: #000729;
+    display: flex;
+    flex-direction: column;
+     font-size: 16px;
+     width: 40%;
+     border-radius: 5px;
+     padding: 20px;
+    
+}
+
+input{
+    width: 90%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+textarea{
+    max-width: 90%;
+    min-width: 90%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+label{
+    margin-top: 1rem;
+    font-weight: 700;  
+    color: white;
+}
+
+input[type="submit"]{
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: rgb(243, 107, 10);
+    color: white;
+    border: none;
+    width: 20vw;
+  
+    
+}
+
+@media  (max-width: 740px){
+    .bigbox{
+       flex-direction: column;
+       
+    }
+    form{
+        margin-top: 60px;
+         width: 90%;
+        
+    } 
+
+}
+@media  (max-width: 349px){
+
+   .bigbox h2{
+        
+    font-size: 50px;
+    letter-spacing: 2px;
+    
+}
+
+.bigbox p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+}
+@media  (max-width: 281px){
+    form{
+        margin-left:-10.5% ;
+    }
+    .bigbox h2{
+        
+        font-size: 40px;
+        letter-spacing: 1px;
+        
+    }
+    
+    .bigbox p{
+        font-size: 10px;
+      
+    }
+}
+
+@media  (max-width: 208px){
+    .bigbox h2{
+        
+        font-size: 30px;
+       
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

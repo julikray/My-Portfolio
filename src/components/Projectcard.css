@@ -1,0 +1,31 @@
+.card{
+    width: 270px;
+    margin-bottom: 40px;
+    background-color: #000729;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+}
+
+.img{
+    height: 140px;
+    width: 250px;
+  
+}
+
+
+button{
+    padding: 10px;
+}
+
+
+.textinfo{
+    color: rgb(249, 114, 114);
+}
+
+.textinfo h4{
+    color: white;
+}
+

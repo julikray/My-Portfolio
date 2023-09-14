@@ -1,0 +1,43 @@
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.aboutimg{
+    margin: 30px;
+}
+
+.aboutme{
+    padding: 20px;
+    
+
+}
+.aboutimg img{
+  width: 20vw;
+  height: auto;
+  border-radius: 20px;
+   
+
+}
+.h1{
+    text-align: center;
+  
+    
+}
+
+@media (max-width: 996px ){
+    .About{
+      flex-direction: column;
+    }
+    .aboutimg img{
+        width: 50vw;
+        height: auto;
+    
+      }
+      .aboutimg{
+       margin-bottom: 5px;
+    }
+    
+
+}
